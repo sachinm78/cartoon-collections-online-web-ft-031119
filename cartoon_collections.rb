@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
   counter = 0 
-  while counter < 1 
+  while counter < array.length
     puts "#{counter}. #{array}"
     counter += 1
   end
